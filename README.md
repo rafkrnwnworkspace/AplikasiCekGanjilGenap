@@ -14,7 +14,7 @@ Aplikasi Cek Ganjil & Genap adalah program GUI sederhana yang memungkinkan pengg
 
 
 
-# Fitur
+# Fitur - fitur
 
 1.     Input angka melalui text field.
 2.     Pengecekan genap/ganjil.
