@@ -5,7 +5,7 @@ import java.awt.event.*;
 public class CekGanjilGenap extends javax.swing.JFrame {
         
     public CekGanjilGenap() {
-      setTitle("2210010611 - Aplikasi Ganjil Genap");
+      setTitle("Aplikasi Ganjil Genap");
       setDefaultCloseOperation(EXIT_ON_CLOSE);
       initComponents();
       setLocationRelativeTo(null);
@@ -21,18 +21,18 @@ public class CekGanjilGenap extends javax.swing.JFrame {
     StringBuilder result = new StringBuilder();
 
     if (number % 2 == 0) {
-        result.append(number).append(" adalah angka genap.\n");
+        result.append(number).append(" ADALAH ANGKA GENAP.\n");
     } else {
-        result.append(number).append(" adalah angka ganjil.\n");
+        result.append(number).append(" ADALAH ANGKA GANJIL.\n");
     }
 
     if (isPrime(number)) {
-        result.append(number).append(" adalah bilangan prima.");
+        result.append(number).append(" ADALAH BILANGAN PRIMA.");
     } else {
-        result.append(number).append(" bukan bilangan prima.");
+        result.append(number).append(" BUKAN BILANGAN PRIMA.");
     }
 
-    JOptionPane.showMessageDialog(this, result.toString(), "Hasil", JOptionPane.INFORMATION_MESSAGE);
+    JOptionPane.showMessageDialog(this, result.toString(), "HASIL", JOptionPane.INFORMATION_MESSAGE);
     inputField.setText("");
 }
 
@@ -154,7 +154,7 @@ private boolean isPrime(int number) {
     }//GEN-LAST:event_inputFieldKeyTyped
 
     private void exitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitButtonActionPerformed
-        // TODO add your handling code here:
+        System.exit(0);
     }//GEN-LAST:event_exitButtonActionPerformed
 
     /**
